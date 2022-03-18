@@ -264,20 +264,38 @@ a{
 /*-------------POGGERS WE'RE AT FOOTER BOIIIIIIIIIIIII----------*/
 .footer{
     padding-top: 50px;
-    padding-left: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     background-color: #101010;
 }
+.sitemap{
+    margin-bottom: 50px;
+    float: left;
+}
 .sitemap h2{
+    margin-bottom: 10px;
     font-size: 24px;
     color: white;
 }
+.sitemap ul{
+    margin-left: -40px;
+}
 .sitemap li{
+    margin-bottom: 5px;
+    list-style-type: none;
     text-align: left;
     font-size: 12px;
     color: white;
 }
+.footer img{
+    float: right;
+    height: 45px;
+    width: 45px;
+}
 .footer p{
-    margin-left: -100px;
+    margin-top: 250px;
+    margin-left: -200px;
+    margin-right: -200px;
     color: white;
     text-align: center;
 }
