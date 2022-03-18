@@ -1,0 +1,165 @@
+/*------------------Stuff-----------------*/
+* {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+    position: relative;
+}
+
+/*----------------------Header--------------------*/
+.header{
+    position: relative;
+    background-image: url('./Assets/home img.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 580px;
+    padding-top: 20px;
+}
+.head-txt{
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+}
+.head-txt h1, .head-txt p{
+    color: white;
+    float:none;
+}
+.head-txt h1{
+    font-size: 72px;
+}
+.head-txt p{
+    font-size: 24px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar li {
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    font-weight:bold;
+}
+
+/*------------------Bahasa Section----------------------*/
+.bahasa{
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 200px;
+    overflow: auto;
+}
+.bahasa img{
+    height: 305px;
+    width: 305px;
+    margin-right: 120px;
+    float: left;
+}
+.bahasa h2 {
+    font-size: 60px;
+    color: #141D2B;
+}
+.bahasa p{
+    font-size: 24px;
+}
+
+/*-------------------Tarian Section------------------*/
+.tarian{
+    justify-content: center;
+    overflow: auto;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-color: #141D2B;
+}
+.tarian-title{
+    margin-bottom: 100px;
+}
+.tarian h2 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+/*The three cards use the same class cuz I'm too lazy to copy and paste*/
+.pakarena{
+    overflow: auto;
+    width: 420px;
+    height: fit-content;
+    float: left;
+    margin-right: 50px;
+}
+#gandrang{
+    margin-right: -20px;
+}
+.pakarena img{
+    width: 420px;
+    height: 277.99px;
+    margin-bottom: 0px;
+}
+.pakarena-txt{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.pakarena h2{
+    text-align: center;
+    color: #141D2B;
+    font-size: 35px;
+}
+.pakarena p{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*----------Adat Section---------*/
+.adat{
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.adat h2{
+    text-align: center;
+    font-size: 60px;
+    color: #141D2B;
+    margin-bottom: 150px;
+}
+
+/*Again, I'm too lazy*/
+.accera {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 175px;
+}
+.accera img{
+    width: 420px;
+    float: left;
+    margin-right: 120px;
+}
+.accera h2{
+    margin-bottom: 50px;
+    text-align: left;
+    font-size: 48px;
+    color: #141D2B;
+}
+.accera p{
+    font-size: 24px;
+}
+#mappalili{
+    margin-bottom: 0px;
+}
+
+/*----------Baju Section---------*/
+.baju{
+    padding-top: 100px;
+    background-color: #141D2B;
+}
